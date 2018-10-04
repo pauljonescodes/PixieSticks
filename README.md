@@ -1,23 +1,32 @@
 # PixieSticks
 
-[![CI Status](https://img.shields.io/travis/PLJNS/PixieSticks.svg?style=flat)](https://travis-ci.org/PLJNS/PixieSticks)
-[![Version](https://img.shields.io/cocoapods/v/PixieSticks.svg?style=flat)](https://cocoapods.org/pods/PixieSticks)
-[![License](https://img.shields.io/cocoapods/l/PixieSticks.svg?style=flat)](https://cocoapods.org/pods/PixieSticks)
-[![Platform](https://img.shields.io/cocoapods/p/PixieSticks.svg?style=flat)](https://cocoapods.org/pods/PixieSticks)
+Under 200 lines of extension code on UIView and NSLayoutConstraint and basically all of the benefits of the bigger libraries.
 
-## Example
+- Exposes the same semantics of AutoLayout through UIView.
+- Makes AutoLayout easier to use through sensible defaults.
+- Doesn’t infer intent.
+- Small enough you should consider copy pasting it.
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+PureLayout:
 
-## Requirements
+```swift
+view.autoSetDimension(.height, toSize: 22)
+imageView.autoPinEdge(.leading, to: .leading, of: view)
+imageView.autoAlignAxis(.horizontal, toSameAxisOf: view)
+locationLabel.autoAlignAxis(.horizontal, toSameAxisOf: imageView)
+locationLabel.autoPinEdge(.leading, 
+                          to: .trailing, of: imageView, withOffset: 5)
+```
 
-## Installation
+PixieSticks:
 
-PixieSticks is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod 'PixieSticks'
+```swift
+view.constrain(attribute: .height, constant: 22)
+imageView.constrain(to: view, attribute: .leading)
+imageView.constrain(to: view, attribute: .centerX)
+locationLabel.constrain(to: imageView, attribute: .centerX)
+locationLabel.constrain(attribute: .leading, 
+                        to: imageView, attribute: .trailing, constant: 5)
 ```
 
 ## Author

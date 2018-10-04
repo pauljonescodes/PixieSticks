@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024C813E5E0078F4F2844E63AA1CF050 /* PixieSticks-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E689F95795D9CCFF16627B07B808357B /* PixieSticks-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		223555CA0282EF461D8961339BA2A187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		226C0179C2D6E42E5F4C091A52F9DFA3 /* Pods-PixieSticks_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F4554FD8869260DED1E922EB1F61E2 /* Pods-PixieSticks_Tests-dummy.m */; };
+		25A2C1A06ECEC4866E11567CDB1E4624 /* Pods-PixieSticks_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69581D82901150A7122A2C51D0A57C9F /* Pods-PixieSticks_Example-dummy.m */; };
+		487493A0F6CA8E0C0F62678D5BF0CE6B /* Pods-PixieSticks_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89C4727FA8904AD9E14A0FFA9D090E18 /* Pods-PixieSticks_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49AF230F2D2EA1CB59713C509BF39131 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5A58535D72979BD02BF5CE5BA7B6D039 /* Pods-PixieSticks_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F892492634CCC5B984BB506283BB6BD /* Pods-PixieSticks_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		822BCDF8CFF9CBD5793BDA7783F36F59 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72B7618D0350FC56CEB97A9CD641AB88 /* UIViewExtensions.swift */; };
+		9A664E75F869730A295CF580838FF489 /* NSLayoutConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B97DBF1D0B456B2EEDF72B5F793291 /* NSLayoutConstraintExtensions.swift */; };
+		9B31E93054C2EDE499AB59D8823AEDA2 /* PixieSticks-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 544BD7C6FD02A45A608EAE81053ED53C /* PixieSticks-dummy.m */; };
+		CE1639C451810DFEF7C87DFA92CFC7F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84333EC40090118D74C49A5AF61415B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 771F5EC530569F4C6065E0E40E03D535;
+			remoteInfo = "Pods-PixieSticks_Example";
+		};
+		FDC0A5BB3BAE77CF4BAAACD8E5756AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1943FE6791AE8F79B4C95AA4CDB69535;
+			remoteInfo = PixieSticks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F892492634CCC5B984BB506283BB6BD /* Pods-PixieSticks_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixieSticks_Example-umbrella.h"; sourceTree = "<group>"; };
+		185BC0879F4F4BD00313439F588FA11E /* Pods-PixieSticks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixieSticks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		21BD27127B2719F784013BA5DC899002 /* Pods_PixieSticks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PixieSticks_Example.framework; path = "Pods-PixieSticks_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		293F46B1DCF9A93FA2A661110D9E942A /* Pods-PixieSticks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixieSticks_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2C63CC6664E57B0B4FF7D5E48772DB8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3796BE9D47493752A9A290B195F94E9B /* Pods-PixieSticks_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixieSticks_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		37EA1AD6876D5045BC07191CE8D8CE2E /* Pods_PixieSticks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PixieSticks_Tests.framework; path = "Pods-PixieSticks_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39057947ADE3BC1292FB199DF236A518 /* PixieSticks.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PixieSticks.xcconfig; sourceTree = "<group>"; };
+		3CF274985B4E530BA9A779A8B8E3E7A3 /* PixieSticks-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixieSticks-prefix.pch"; sourceTree = "<group>"; };
+		42A359D3816C420B5C9F6486B2ED0876 /* Pods-PixieSticks_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixieSticks_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		486643CB8CC320E3372AE3A11F1BA08D /* Pods-PixieSticks_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixieSticks_Example.modulemap"; sourceTree = "<group>"; };
+		4B00DE1B7F0BC9CDAA50401B9DBCCD0F /* PixieSticks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PixieSticks.framework; path = PixieSticks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F4554FD8869260DED1E922EB1F61E2 /* Pods-PixieSticks_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixieSticks_Tests-dummy.m"; sourceTree = "<group>"; };
+		544BD7C6FD02A45A608EAE81053ED53C /* PixieSticks-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PixieSticks-dummy.m"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69581D82901150A7122A2C51D0A57C9F /* Pods-PixieSticks_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PixieSticks_Example-dummy.m"; sourceTree = "<group>"; };
+		6B5C1C57BC821F951C93BB8571B9C2F5 /* PixieSticks.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = PixieSticks.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72B7618D0350FC56CEB97A9CD641AB88 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = PixieSticks/Classes/UIViewExtensions.swift; sourceTree = "<group>"; };
+		74D9900DACE45865BBAACCFB27E6FF5C /* Pods-PixieSticks_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PixieSticks_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7CE68E5459F02C0543DA7ED1AFAE6710 /* Pods-PixieSticks_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixieSticks_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		82902753B4357A0EDCE0D77461FDB6F9 /* Pods-PixieSticks_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PixieSticks_Tests.modulemap"; sourceTree = "<group>"; };
+		89C4727FA8904AD9E14A0FFA9D090E18 /* Pods-PixieSticks_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PixieSticks_Tests-umbrella.h"; sourceTree = "<group>"; };
+		89DE6C3E72E13F76FCFD113D0A72225F /* Pods-PixieSticks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixieSticks_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8CCF07036F4B1CEC4EF1D6A274F376F0 /* Pods-PixieSticks_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixieSticks_Tests-resources.sh"; sourceTree = "<group>"; };
+		8F5E6D27D26D5C335D98250A20F6A05A /* Pods-PixieSticks_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PixieSticks_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B581333BA87D192DA011B2E357B5E59 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C330BB0C3FE03C7429BCEB110394D839 /* PixieSticks.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PixieSticks.modulemap; sourceTree = "<group>"; };
+		C8C9AD6F9CFA829917D5C473C03FD975 /* Pods-PixieSticks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PixieSticks_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CC49CE8FBF4F1B7D11D541EB20B9B0EB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D6B97DBF1D0B456B2EEDF72B5F793291 /* NSLayoutConstraintExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSLayoutConstraintExtensions.swift; path = PixieSticks/Classes/NSLayoutConstraintExtensions.swift; sourceTree = "<group>"; };
+		D9748131DBA45C32CAF485223DC5D080 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E689F95795D9CCFF16627B07B808357B /* PixieSticks-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PixieSticks-umbrella.h"; sourceTree = "<group>"; };
+		EB3584D121303BD30D47E89791774F47 /* Pods-PixieSticks_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixieSticks_Example-resources.sh"; sourceTree = "<group>"; };
+		EB61FF2D900F5A0F3BF2CC07BED72681 /* Pods-PixieSticks_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PixieSticks_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EBD5BB913B31A829FBE2493FCDE44247 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20E510B5867D99EC5F05D6DBF804B020 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE1639C451810DFEF7C87DFA92CFC7F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876AAA449F44F6CFE7880C5269A4933C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223555CA0282EF461D8961339BA2A187 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0B406CFB67BF764B75162B09BB9176D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49AF230F2D2EA1CB59713C509BF39131 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067FB16F76E116A4DEC14C9607B65C0A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7EDA55F74DAAFF9572455FF1BC92CC9C /* Pods-PixieSticks_Example */,
+				83893AFFAE2ECFD68F43287F567E8645 /* Pods-PixieSticks_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0AB10551F85715A4B6934EE864514F3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9748131DBA45C32CAF485223DC5D080 /* Info.plist */,
+				C330BB0C3FE03C7429BCEB110394D839 /* PixieSticks.modulemap */,
+				39057947ADE3BC1292FB199DF236A518 /* PixieSticks.xcconfig */,
+				544BD7C6FD02A45A608EAE81053ED53C /* PixieSticks-dummy.m */,
+				3CF274985B4E530BA9A779A8B8E3E7A3 /* PixieSticks-prefix.pch */,
+				E689F95795D9CCFF16627B07B808357B /* PixieSticks-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PixieSticks";
+			sourceTree = "<group>";
+		};
+		27B544DDB2786FE7ED0CAC4A197B95ED /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CC49CE8FBF4F1B7D11D541EB20B9B0EB /* LICENSE */,
+				6B5C1C57BC821F951C93BB8571B9C2F5 /* PixieSticks.podspec */,
+				2C63CC6664E57B0B4FF7D5E48772DB8F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				DCF42C244C80B4AF332DD22FDE444BAE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				EF6DFEBCB83F08ECB5AB1590E078F310 /* Products */,
+				067FB16F76E116A4DEC14C9607B65C0A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EDA55F74DAAFF9572455FF1BC92CC9C /* Pods-PixieSticks_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EBD5BB913B31A829FBE2493FCDE44247 /* Info.plist */,
+				486643CB8CC320E3372AE3A11F1BA08D /* Pods-PixieSticks_Example.modulemap */,
+				74D9900DACE45865BBAACCFB27E6FF5C /* Pods-PixieSticks_Example-acknowledgements.markdown */,
+				8F5E6D27D26D5C335D98250A20F6A05A /* Pods-PixieSticks_Example-acknowledgements.plist */,
+				69581D82901150A7122A2C51D0A57C9F /* Pods-PixieSticks_Example-dummy.m */,
+				EB61FF2D900F5A0F3BF2CC07BED72681 /* Pods-PixieSticks_Example-frameworks.sh */,
+				EB3584D121303BD30D47E89791774F47 /* Pods-PixieSticks_Example-resources.sh */,
+				0F892492634CCC5B984BB506283BB6BD /* Pods-PixieSticks_Example-umbrella.h */,
+				293F46B1DCF9A93FA2A661110D9E942A /* Pods-PixieSticks_Example.debug.xcconfig */,
+				C8C9AD6F9CFA829917D5C473C03FD975 /* Pods-PixieSticks_Example.release.xcconfig */,
+			);
+			name = "Pods-PixieSticks_Example";
+			path = "Target Support Files/Pods-PixieSticks_Example";
+			sourceTree = "<group>";
+		};
+		83893AFFAE2ECFD68F43287F567E8645 /* Pods-PixieSticks_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B581333BA87D192DA011B2E357B5E59 /* Info.plist */,
+				82902753B4357A0EDCE0D77461FDB6F9 /* Pods-PixieSticks_Tests.modulemap */,
+				3796BE9D47493752A9A290B195F94E9B /* Pods-PixieSticks_Tests-acknowledgements.markdown */,
+				42A359D3816C420B5C9F6486B2ED0876 /* Pods-PixieSticks_Tests-acknowledgements.plist */,
+				53F4554FD8869260DED1E922EB1F61E2 /* Pods-PixieSticks_Tests-dummy.m */,
+				7CE68E5459F02C0543DA7ED1AFAE6710 /* Pods-PixieSticks_Tests-frameworks.sh */,
+				8CCF07036F4B1CEC4EF1D6A274F376F0 /* Pods-PixieSticks_Tests-resources.sh */,
+				89C4727FA8904AD9E14A0FFA9D090E18 /* Pods-PixieSticks_Tests-umbrella.h */,
+				185BC0879F4F4BD00313439F588FA11E /* Pods-PixieSticks_Tests.debug.xcconfig */,
+				89DE6C3E72E13F76FCFD113D0A72225F /* Pods-PixieSticks_Tests.release.xcconfig */,
+			);
+			name = "Pods-PixieSticks_Tests";
+			path = "Target Support Files/Pods-PixieSticks_Tests";
+			sourceTree = "<group>";
+		};
+		89E7F19ABA9847675FC769950EDB11F2 /* PixieSticks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B97DBF1D0B456B2EEDF72B5F793291 /* NSLayoutConstraintExtensions.swift */,
+				72B7618D0350FC56CEB97A9CD641AB88 /* UIViewExtensions.swift */,
+				27B544DDB2786FE7ED0CAC4A197B95ED /* Pod */,
+				0AB10551F85715A4B6934EE864514F3B /* Support Files */,
+			);
+			name = PixieSticks;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCF42C244C80B4AF332DD22FDE444BAE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89E7F19ABA9847675FC769950EDB11F2 /* PixieSticks */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EF6DFEBCB83F08ECB5AB1590E078F310 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B00DE1B7F0BC9CDAA50401B9DBCCD0F /* PixieSticks.framework */,
+				21BD27127B2719F784013BA5DC899002 /* Pods_PixieSticks_Example.framework */,
+				37EA1AD6876D5045BC07191CE8D8CE2E /* Pods_PixieSticks_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D9A04A9136B3CB0CB92EC22BAF62D23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024C813E5E0078F4F2844E63AA1CF050 /* PixieSticks-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D7AF15645A3FE9923B960F7074A3B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A58535D72979BD02BF5CE5BA7B6D039 /* Pods-PixieSticks_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6EFE7089F373DB08A7A29CC1751AE5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487493A0F6CA8E0C0F62678D5BF0CE6B /* Pods-PixieSticks_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15E3650D75BAC6561C40C9198D9C5258 /* Pods-PixieSticks_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 583AFDDE8593A9D63B6A50602ED34E46 /* Build configuration list for PBXNativeTarget "Pods-PixieSticks_Tests" */;
+			buildPhases = (
+				CA25AC0F4C5F042264F8513549C3D9AC /* Sources */,
+				876AAA449F44F6CFE7880C5269A4933C /* Frameworks */,
+				F6EFE7089F373DB08A7A29CC1751AE5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3340312B90443CEBCBB46D0341BBEE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-PixieSticks_Tests";
+			productName = "Pods-PixieSticks_Tests";
+			productReference = 37EA1AD6876D5045BC07191CE8D8CE2E /* Pods_PixieSticks_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1943FE6791AE8F79B4C95AA4CDB69535 /* PixieSticks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38971ED77294EDC70627B3782E739B98 /* Build configuration list for PBXNativeTarget "PixieSticks" */;
+			buildPhases = (
+				CC81D3874AC21A9C853D8CA04252774A /* Sources */,
+				20E510B5867D99EC5F05D6DBF804B020 /* Frameworks */,
+				1D9A04A9136B3CB0CB92EC22BAF62D23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PixieSticks;
+			productName = PixieSticks;
+			productReference = 4B00DE1B7F0BC9CDAA50401B9DBCCD0F /* PixieSticks.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		771F5EC530569F4C6065E0E40E03D535 /* Pods-PixieSticks_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79B94C51AA746F6331D6D6027CD06E77 /* Build configuration list for PBXNativeTarget "Pods-PixieSticks_Example" */;
+			buildPhases = (
+				0FF711A1FA7B5535FBE28B85F2EBDA0C /* Sources */,
+				A0B406CFB67BF764B75162B09BB9176D /* Frameworks */,
+				97D7AF15645A3FE9923B960F7074A3B9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D381497ADC094D5872BCEA5D2A548D86 /* PBXTargetDependency */,
+			);
+			name = "Pods-PixieSticks_Example";
+			productName = "Pods-PixieSticks_Example";
+			productReference = 21BD27127B2719F784013BA5DC899002 /* Pods_PixieSticks_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EF6DFEBCB83F08ECB5AB1590E078F310 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1943FE6791AE8F79B4C95AA4CDB69535 /* PixieSticks */,
+				771F5EC530569F4C6065E0E40E03D535 /* Pods-PixieSticks_Example */,
+				15E3650D75BAC6561C40C9198D9C5258 /* Pods-PixieSticks_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FF711A1FA7B5535FBE28B85F2EBDA0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A2C1A06ECEC4866E11567CDB1E4624 /* Pods-PixieSticks_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA25AC0F4C5F042264F8513549C3D9AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226C0179C2D6E42E5F4C091A52F9DFA3 /* Pods-PixieSticks_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC81D3874AC21A9C853D8CA04252774A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A664E75F869730A295CF580838FF489 /* NSLayoutConstraintExtensions.swift in Sources */,
+				9B31E93054C2EDE499AB59D8823AEDA2 /* PixieSticks-dummy.m in Sources */,
+				822BCDF8CFF9CBD5793BDA7783F36F59 /* UIViewExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3340312B90443CEBCBB46D0341BBEE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PixieSticks_Example";
+			target = 771F5EC530569F4C6065E0E40E03D535 /* Pods-PixieSticks_Example */;
+			targetProxy = 84333EC40090118D74C49A5AF61415B1 /* PBXContainerItemProxy */;
+		};
+		D381497ADC094D5872BCEA5D2A548D86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PixieSticks;
+			target = 1943FE6791AE8F79B4C95AA4CDB69535 /* PixieSticks */;
+			targetProxy = FDC0A5BB3BAE77CF4BAAACD8E5756AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2141959934DE39DA8CA04A77B3BF32B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39057947ADE3BC1292FB199DF236A518 /* PixieSticks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixieSticks/PixieSticks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixieSticks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PixieSticks/PixieSticks.modulemap";
+				PRODUCT_MODULE_NAME = PixieSticks;
+				PRODUCT_NAME = PixieSticks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57B97AE9E6F49C0513355CD14667FB4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293F46B1DCF9A93FA2A661110D9E942A /* Pods-PixieSticks_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PixieSticks_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PixieSticks_Example/Pods-PixieSticks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D1C81CCBE3EA7270BC92287AC56B191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8C9AD6F9CFA829917D5C473C03FD975 /* Pods-PixieSticks_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PixieSticks_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PixieSticks_Example/Pods-PixieSticks_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BA2D754A72466BC82DF4509EBFE4152F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 185BC0879F4F4BD00313439F588FA11E /* Pods-PixieSticks_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PixieSticks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PixieSticks_Tests/Pods-PixieSticks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFDD33743FBA6C79366F4000E0376974 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39057947ADE3BC1292FB199DF236A518 /* PixieSticks.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PixieSticks/PixieSticks-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PixieSticks/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PixieSticks/PixieSticks.modulemap";
+				PRODUCT_MODULE_NAME = PixieSticks;
+				PRODUCT_NAME = PixieSticks;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E626CDC403E9912A9DE308A621F00A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89DE6C3E72E13F76FCFD113D0A72225F /* Pods-PixieSticks_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PixieSticks_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PixieSticks_Tests/Pods-PixieSticks_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38971ED77294EDC70627B3782E739B98 /* Build configuration list for PBXNativeTarget "PixieSticks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDD33743FBA6C79366F4000E0376974 /* Debug */,
+				2141959934DE39DA8CA04A77B3BF32B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		583AFDDE8593A9D63B6A50602ED34E46 /* Build configuration list for PBXNativeTarget "Pods-PixieSticks_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2D754A72466BC82DF4509EBFE4152F /* Debug */,
+				E626CDC403E9912A9DE308A621F00A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79B94C51AA746F6331D6D6027CD06E77 /* Build configuration list for PBXNativeTarget "Pods-PixieSticks_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57B97AE9E6F49C0513355CD14667FB4E /* Debug */,
+				6D1C81CCBE3EA7270BC92287AC56B191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

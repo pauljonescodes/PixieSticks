@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27DD5E3021668AF600F56FFE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD5E2E21668AF600F56FFE /* TableViewController.swift */; };
+		27DD5E3121668AF600F56FFE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD5E2F21668AF600F56FFE /* DetailViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
@@ -29,13 +30,14 @@
 
 /* Begin PBXFileReference section */
 		0706B9CF8751659D517AB897 /* Pods-PixieSticks_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixieSticks_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixieSticks_Example/Pods-PixieSticks_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		16CE7EE7F8E11984A957B118 /* PixieSticks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PixieSticks.podspec; path = ../PixieSticks.podspec; sourceTree = "<group>"; };
+		16CE7EE7F8E11984A957B118 /* PixieSticks.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PixieSticks.podspec; path = ../PixieSticks.podspec; sourceTree = "<group>"; };
+		27DD5E2E21668AF600F56FFE /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		27DD5E2F21668AF600F56FFE /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		2A998A05D8BE8194999D1E63 /* Pods-PixieSticks_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixieSticks_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixieSticks_Example/Pods-PixieSticks_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2EE7AD2A5B8A32751C8DB81B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2EE7AD2A5B8A32751C8DB81B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PixieSticks_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PixieSticks_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		689D3FB0F4A97C79E1A4D13D /* Pods_PixieSticks_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixieSticks_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D458B10C9F4ACD3A2FEED15 /* Pods-PixieSticks_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixieSticks_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PixieSticks_Tests/Pods-PixieSticks_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		98A37DFEC9503251A9E93A29 /* Pods_PixieSticks_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PixieSticks_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFE5AEF6A527992E324D63A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AFE5AEF6A527992E324D63A6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E5A8122F00F685E77A63BB79 /* Pods-PixieSticks_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PixieSticks_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PixieSticks_Tests/Pods-PixieSticks_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,8 +95,9 @@
 		607FACD21AFB9204008FA782 /* Example for PixieSticks */ = {
 			isa = PBXGroup;
 			children = (
+				27DD5E2F21668AF600F56FFE /* DetailViewController.swift */,
+				27DD5E2E21668AF600F56FFE /* TableViewController.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -322,8 +325,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				27DD5E3021668AF600F56FFE /* TableViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				27DD5E3121668AF600F56FFE /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,6 @@
+framework module Pods_PixieSticks_Example {
+  umbrella header "Pods-PixieSticks_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

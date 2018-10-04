@@ -1,0 +1,16 @@
+PODS:
+  - PixieSticks (0.1.0)
+
+DEPENDENCIES:
+  - PixieSticks (from `../`)
+
+EXTERNAL SOURCES:
+  PixieSticks:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PixieSticks: e8e1394bf42f34148cbb8e33001044c01cd8131e
+
+PODFILE CHECKSUM: 614f659d29de4775354ae68695d6b22dfaa77ecd
+
+COCOAPODS: 1.5.3

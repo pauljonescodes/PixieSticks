@@ -1,0 +1,6 @@
+framework module PixieSticks {
+  umbrella header "PixieSticks-umbrella.h"
+
+  export *
+  module * { export * }
+}
