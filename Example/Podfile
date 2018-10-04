@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PixieSticks_Example' do
+  pod 'PixieSticks', :path => '../'
+
+  target 'PixieSticks_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
